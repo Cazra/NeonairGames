@@ -1,12 +1,6 @@
 # Neonair Games repository
 
-I've stopped caring about keeping the Neonair Games website up, running, and
-hosting my games. The reasons were I suppose three-fold: I didn't have the
-time to regularly update it or make new games for it anymore; the host I had
-used to be cheap, but then their prices crept upwards; the host had problems
-with serving some of the Angular and WebGL assets I had on the website.
-
-Since my games and the Neonair Games website are no longer available there,
+Since my games are no longer available through the Neonair Games website, which no longer exists,
 I've decided to preserve my old games for posterity here on GitHub so that they
 won't merely remain on my harddrive forever and succumb to bit-rot. This
 repository contains many of my old games (at least the ones I still have
