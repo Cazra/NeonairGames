@@ -25,5 +25,4 @@ midis used with ones you have commercial rights for.
 
 In the credits of most of these old games, I used to go by the pen-name
 "Snerlin". I no longer go by that pen-name. It is dead to me. I apologize for
-any cringiness you experience from playing or examining the source code of
-these old games. I'm sorry. XD
+any cringiness you experience from playing these old games or examining their source code. I'm sorry. XD
