@@ -1,0 +1,21 @@
+Encrytion/ Decription for Neoanir RAcing filenames
+
+1=5
+2=8
+3=7
+4=6
+9=0
+
+a=z
+b=y
+c=x
+d=w
+e=v
+f=u
+g=t
+h=s
+i=r
+j=q
+k=p
+l=o
+m=n

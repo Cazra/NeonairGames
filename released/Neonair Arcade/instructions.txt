@@ -1,0 +1,59 @@
+Neonair Arcade
+
+copyright©2005 Neonair Games
+
+----------------------------------------
+
+About: 
+
+Neonair Arcade wasn't really a big project at all. We decided to make this when Zerko told me(Snerlin) that
+he was going to make a collection of minigames. Having nothing better to do since I've been addicted to a
+evil MMORPG all year, I decided to detach myself from the MMORPG to work on this project with Zerko. It includes
+3 minigames made by Zerko(Pong, Space Shooter, and Meteor Defender) and 2 minigames I've made(Doomsday and
+Tapeworm Racers). It's not really much and the games are probably not very addicting, but we hope you enjoy it
+whilst killing some time, aliens, and evil bananas in the process.
+
+---------------------------------------
+
+Press Alt+F4 to quit the game at any time.
+
+----------------------------------------
+
+Pong:
+
+left and right to move
+
+----------------------------------------
+
+Space Shooter:
+
+left and right to move
+
+CTRL to fire lasers
+
+----------------------------------------
+
+Meteor Defender:
+
+left and right to move
+
+CTRL to fire laser
+
+----------------------------------------
+
+Doomsday:
+
+left and right to rotate orbit
+
+----------------------------------------
+
+Tapeworm Races:
+
+up to go higher
+
+----------------------------------------
+
+Known bugs:
+
+-all the games use the same highscores
+-on Meteor Defender, you can move off the screen.

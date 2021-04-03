@@ -1,0 +1,156 @@
+<dialogs>
+  <dia id="selectPony">
+    <node type="input" id="top">
+      <prompt>Select a pony.</prompt>
+      <case val="Air Heart"><node type="event" event="beAirHeart" /></case>
+      <case val="Applebloom"><node type="event" event="beApplebloom" /></case>
+      <case val="Applejack"><node type="event" event="beApplejack" /></case>
+      <case val="AppleTart"><node type="event" event="beAppleTart" /></case>
+      <case val="Big Macintosh"><node type="event" event="beBigMacintosh" /></case>
+      <case val="Bon Bon"><node type="event" event="beBonBon" /></case>
+      <case val="Caramel"><node type="event" event="beCaramel" /></case>
+      <case val="more...">
+      
+        <node type="input">
+          <prompt> </prompt>
+          <case val="Mr. Cake"><node type="event" event="beCarrotCake" /></case>
+          <case val="Cheerilee"><node type="event" event="beCheerilee" /></case>
+          <case val="Mrs. Cake"><node type="event" event="beCupCake" /></case>
+          <case val="Derpy"><node type="event" event="beDerpy" /></case>
+          <case val="Diamond Tiara"><node type="event" event="beDiamondTiara" /></case>
+          <case val="Dinky"><node type="event" event="beDinky" /></case>
+          <case val="Dr. Whooves"><node type="event" event="beDrWhooves" /></case>
+          <case val="more...">
+                
+            <node type="input">
+              <prompt> </prompt>
+              <case val="Fluttershy"><node type="event" event="beFluttershy" /></case>
+              <case val="Golden Harvest"><node type="event" event="beGoldenHarvest" /></case>
+              <case val="Granny Smith"><node type="event" event="beGrannySmith" /></case>
+              <case val="Lyra Heartstrings"><node type="event" event="beLyraHeartstrings" /></case>
+              <case val="Mayor Mare"><node type="event" event="beMayorMare" /></case>
+              <case val="Mochaccino"><node type="event" event="beMochaccino" /></case>
+              <case val="Pinkie Pie"><node type="event" event="bePinkiePie" /></case>
+              <case val="more...">
+              
+                <node type="input">
+                  <prompt> </prompt>
+                  <case val="Rainbow Dash"><node type="event" event="beRainbowDash" /></case>
+                  <case val="Rarity"><node type="event" event="beRarity" /></case>
+                  <case val="Scootaloo"><node type="event" event="beScootaloo" /></case>
+                  <case val="Silver Spoon"><node type="event" event="beSilverSpoon" /></case>
+                  <case val="Snails"><node type="event" event="beSnails" /></case>
+                  <case val="Snips"><node type="event" event="beSnips" /></case>
+                  <case val="Sassaflash"><node type="event" event="beSassaflash" /></case>
+                  <case val="more...">
+                  
+                    <node type="input">
+                      <prompt> </prompt>
+                      <case val="Star Hunter"><node type="event" event="beStarHunter" /></case>
+                      <case val="Sweetie Belle"><node type="event" event="beSweetieBelle" /></case>
+                      <case val="Twilight Sparkle"><node type="event" event="beTwilightSparkle" /></case>
+                      <case val="Twinkleshine"><node type="event" event="beTwinkleshine" /></case>
+                      <case val="Zecora"><node type="event" event="beZecora" /></case>
+                      <case val="more..." goto="top"/>
+                    </node>
+
+                  </case>
+                </node>
+              
+              </case>
+            </node>
+              
+          </case>
+        </node>
+        
+      </case>
+    </node>
+  </dia>
+  
+  <dia id="1">
+    <node id="start">Hello! This is an example of game dialog. It is sort of long and automatically divided into paragraphs to make sure that the basics of dialog display and interaction work.</node>
+    <node>The dialog system contains many neat features. Formatting tags can be used in scripts to change the color of text to <f color="0xFF0000">red</f> or <f color="0x0000FF">blue</f>, for example.</node>
+    <node type="input"> 
+      <prompt>Would you like me to repeat this?</prompt>
+      <case val="yes" goto="start"/>
+      <case val="maybe..." goto="start"/>
+      <case val="okay!" goto="start"/>
+      <case val="no"/>
+    </node>
+    <node>This concludes the test dialog.</node>
+  </dia>
+  
+  <dia id="2">
+    <node id="start">Herp. Derp...</node>
+    <node type="input"> 
+      <prompt>Which one?</prompt>
+      <case val="a">
+        <node>a!</node>
+      </case>
+      <case val="b">
+        <node>b!</node>
+      </case>
+      <case val="c">
+        <node>c!</node>
+      </case>
+    </node>
+    <node>This concludes the test dialog.</node>
+  </dia>
+  
+  
+  <dia id="warp sign">
+    <node>That panel on the ground to transfer you to a different layer in the map.</node>
+  </dia>
+
+  <dia id="rock">
+    <node>Hello. I am a rock.</node>
+    <node>Who, Tom? I've never heard of him.</node>
+  </dia>
+
+  <dia id="Dinky">
+    <node who="Dinky">Um... Hi. Do you maybe want to play Jenga with me?</node>
+    <node who="Dinky" emote="Contemplative">Sometimes I think life can be a lot like a Jenga tower...</node>
+  </dia>
+  
+  <dia id="Derpy">
+    <node who="Derpy">...</node>
+    <node who="Derpy">... ...</node>
+    <node who="Derpy">... ... ...</node>
+    <node who="Derpy">Derp.</node>
+  </dia>
+  
+  <dia id="Lyra">
+    <node who="Lyra">Hey there, ponyfriend!</node>
+    <node type="switch" var="lyraTalk">
+      <case val="1">
+        <node who="Lyra">I'm Lyra! This is the first time you've talked to me.</node>
+      </case>
+      <case val="10">
+        <node who="Lyra" emote="happy">Congrats, this is the <s key="lyraTalk"/>th time you've talked to me! </node>
+        <node who="Lyra">Maybe I have a special gold star sticker for you around here somewhere...</node>
+      </case>
+      <case val=">10">
+        <node who="Lyra">Aren't you done here? You already talked to me at least 10 times...</node>
+      </case>
+      <default>
+        <node who="Lyra">You've talked to me <s key="lyraTalk"/> times now.</node>
+        <node who="Lyra">Keep going!</node>
+      </default>
+    </node>
+    <node who="Lyra">Talk to me again, sometime!</node>
+  </dia>
+  
+  
+  <dia id="Applebloom">
+    <node who="Applebloom">Hey there! Follow me this way!</node>
+    <node type="switch" var="applebloomLocation">
+      <case val="north">
+        <node type="event" event="ApplebloomGoSouth" blocking="true" />
+      </case>
+      <case val="south">
+        <node type="event" event="ApplebloomGoNorth" blocking="true" />
+      </case>
+    </node>
+    <node who="Applebloom">Over here!</node>
+  </dia>
+</dialogs>

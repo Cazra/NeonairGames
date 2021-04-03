@@ -1,0 +1,41 @@
+controls:
+
+As Chester the pig:
+    arrow keys= move left and right
+    shift= jump
+
+As Chester the platform game character with fists:
+    arrow keys= move left and right
+    shift= jump
+    ctrl= punch(good for hitting switches but not enemies)
+As Chester the biped combat robot:
+    arrow keys to move/ select direction(to shoot diagonal direction you have to jump and press left or right 
+               and shoot(if you're still going up you'll shoot in a slightly upwards diagonaldepending on your 
+               jump rate. if you're going down, vice versa))
+     shift= jump
+     ctrl= shoot(if a small enemy doesn't get destroyed in 1 shot then it is invulnerable.)
+
+Motor bike:
+         left ,right= move left or right
+
+menus:
+         Use the mouse to click on some thing in the menus.
+
+
+
+hints for bosses
+
+These are in no particualar order.
+
+
+-jump after any fire is shot.
+-red ones can be deflected.
+-keep moving and shooting
+-catch any bombs on fire
+-blind the laser eye
+-levers near a green liquid cauldron can sense spells and activate something.
+
+
+
+
+for more info,   veiw the readme file

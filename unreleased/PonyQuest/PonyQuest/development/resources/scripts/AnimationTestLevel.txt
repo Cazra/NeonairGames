@@ -1,0 +1,57 @@
+<dialogs>
+  <dia id="1">
+    <node id="start">Hello! This is an example of game dialog. It is sort of long and automatically divided into paragraphs to make sure that the basics of dialog display and interaction work.</node>
+    <node>The dialog system contains many neat features. Formatting tags can be used in scripts to change the color of text to <f color="0xFF0000">red</f> or <f color="0x0000FF">blue</f>, for example.</node>
+    <node type="input"> 
+      <prompt>Would you like me to repeat this?</prompt>
+      <case val="yes" goto="start"/>
+      <case val="no"/>
+    </node>
+    <node>This concludes the test dialog.</node>
+  </dia>
+  
+  <dia id="2">
+    <node id="start">Herp. derp...</node>
+    <node type="input"> 
+      <prompt>Which one?</prompt>
+      <case val="a">
+        <node>a!</node>
+      </case>
+      <case val="b">
+        <node>b!</node>
+      </case>
+      <case val="c">
+        <node>c!</node>
+      </case>
+    </node>
+    <node>This concludes the test dialog.</node>
+  </dia>
+  
+  
+  <dia id="warp sign">
+    <node>That panel on the ground to transfer you to a different layer in the map.</node>
+  </dia>
+
+  <dia id="rock">
+    <node>Hello. I am a rock.</node>
+    <node>Who, Tom? I've never heard of him.</node>
+  </dia>
+
+  <dia id="Lyra">
+    <node who="Lyra">Hey there, ponyfriend!</node>
+    <node type="switch" var="lyraTalk">
+      <case val="1">
+        <node who="Lyra">I'm Lyra! This is the first time you've talked to me.</node>
+      </case>
+      <case val="50">
+        <node who="Lyra" emote="happy">Congrats, this is the <s key="lyraTalk"/>th time you've talked to me! </node>
+        <node who="Lyra">Maybe I have a special gold star sticker for you around here somewhere...</node>
+      </case>
+      <default>
+        <node who="Lyra">You've talked to me <s key="lyraTalk"/> times now.</node>
+        <node who="Lyra">Keep going!</node>
+      </default>
+    </node>
+    <node who="Lyra">Talk to me again, sometime!</node>
+  </dia>
+</dialogs>
